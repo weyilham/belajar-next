@@ -1,0 +1,34 @@
+.ProductDetail {
+  width: 25%;
+  padding: 10px;
+  margin: 0 auto;
+  &__image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    & > img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__title {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+  }
+  &__category {
+    color: rgb(98, 98, 98);
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  &__price {
+    color: rgb(20, 20, 20);
+    font-weight: 600;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+}
